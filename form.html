@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+          crossorigin="anonymous">
+
+</head>
+
+<body>
+    <main class="container">
+
+        <form method="get"
+              action="search.asp">
+            <input aria-label="Enter your search term"
+                   type="search">
+            <input type="submit"
+                   value="Search">
+        </form>
+        <header>
+            <h1>Hello Welcome to Forms!</h1>
+            <form action="">
+                <label for="password">Reset Password</label>
+                <input type="password"
+                       aria-describedby="password-instructions"
+                       name="password">
+                <br>
+                <span id="password-instructions">New passwords must have at least 8 letters, two must numbers, one
+                    hierogplyphic, and one phrase in
+                    greek from the illiad</span>
+            </form>
+        </header>
+        <form action="">
+            <fieldset>
+                <legend>Your Name</legend>
+                <div class="form-group">
+                    <label for="firstName">First Name</label>
+                    <input type="text"
+                           class="form-control"
+                           placeholder="Joe"
+                           name="firstName">
+                </div>
+
+                <div class="form-group">
+                    <label for="lastName">Last Name</label>
+                    <input type="text"
+                           class="form-control"
+                           placeholder="Joe"
+                           name="lastName">
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Bowling Scores</legend>
+
+                <table class="table table-dark">
+                    <thead>
+                        <tr>
+                            <th id="namelabel"
+                                scope="col">Name</th>
+                            <th id="scorelabel"
+                                scope="col">Score</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><input aria-labelledby="namelabel"
+                                       type="text"></td>
+                            <td><input aria-labelledby="scorelabel"
+                                       type="number"></td>
+                        </tr>
+                        <tr>
+                            <td><input aria-labelledby="namelabel"
+                                       type="text"></td>
+                            <td><input aria-labelledby="scorelabel"
+                                       type="number"></td>
+                        </tr>
+                        <tr>
+                            <td><input aria-labelledby="namelabel"
+                                       type="text"></td>
+                            <td><input aria-labelledby="scorelabel"
+                                       type="number"></td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </fieldset>
+            <input type="submit"
+                   value="Save"
+                   class="btn btn-primary">
+        </form>
+        <button class="btn btn-lg btn-success">
+            <p>This button does stuff</p>
+            <p>click me and find out</p>
+        </button>
+        <a class="btn btn-primary"
+           href="somepage.html">Click me to go to a page!</a>
+
+
+    </main>
+</body>
+
+</html>

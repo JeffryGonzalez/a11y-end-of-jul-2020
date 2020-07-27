@@ -1,0 +1,57 @@
+html {
+    font-size: 100%;
+    line-height: 1.7;
+}
+
+.skip-link {
+      position: absolute;
+       left: -999em;
+       width: 990em;
+
+}
+.skip-link:focus, .skip-link:active {
+    left: -0.5em;
+    border: 3px #3399cc solid;
+    background-color: #fff;
+
+}
+
+.header {
+    padding: 2%;
+    background-color: azure;
+}
+.header .header-sub-heading {
+    font-size: 1.6rem;
+    font-weight: bolder;
+}
+
+main {
+    margin: 2rem;
+}
+blockquote {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 3%;
+    background-color: gray;
+    color: white;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    font-style: italic;
+}
+
+article {
+    border-top: 1px dotted black;
+}
+dl dt {
+    font-weight: bold;
+}
+
+figure figcaption {
+    font-style: italic;
+    color: gray;
+}
+.page-footer {
+    margin: 3%;
+    border-top: 1px solid green;
+    text-align: center;
+}
